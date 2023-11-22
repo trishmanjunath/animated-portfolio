@@ -1,0 +1,26 @@
+.navbar {
+  height: 100px;
+}
+.navbar .wrapper {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .wrapper span {
+  font-weight: bold;
+}
+.navbar .wrapper .social {
+  display: flex;
+  gap: 20px;
+}
+.navbar .wrapper .social img {
+  height: 40px;
+  width: 40px;
+}
+.navbar .wrapper .social img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=navbar.css.map */

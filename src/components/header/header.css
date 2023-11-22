@@ -1,0 +1,43 @@
+.header {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #000000, #141523);
+  position: relative;
+}
+.header .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+  padding-left: 50px;
+}
+.header .wrapper .textContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.header .wrapper .textContainer h2 {
+  font-size: 30px;
+  color: #BBC0E6;
+  letter-spacing: 9px;
+}
+.header .wrapper .textContainer h1 {
+  font-size: 70px;
+}
+.header .header-container {
+  height: 100%;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+}
+.header .sliding-text {
+  position: absolute;
+  font-size: 50vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.0352941176);
+  width: 100%;
+  font-weight: bold;
+}/*# sourceMappingURL=header.css.map */
